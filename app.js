@@ -10,7 +10,7 @@ let tempsInitial = 1800;
 let tempsDeRepos = 300;
 let pause = false;
 let nbDeCycles = 0;
-cycles.innerText = `Nombre de cycles ${ nbDeCycles }`;
+cycles.innerText = `Cycles: ${ nbDeCycles }.`;
 
 affichageTravail.innerText = `${Math.trunc(tempsInitial/60)} : ${
     (tempsInitial % 60 < 10) ? `0${tempsInitial % 60}` : tempsInitial % 60}`;
